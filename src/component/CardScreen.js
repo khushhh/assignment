@@ -15,7 +15,7 @@ function CardScreen(props) {
     setLiked(!liked)
   }
 
-  // liked feature here
+// liked feature here
   const likedHere = () => {
     if (liked) {
       return <HeartFilled style={{ color: "#ff0000", fontSize: 20 }} />
