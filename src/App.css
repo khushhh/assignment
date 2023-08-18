@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+
+h3{
+  margin-top: 0;
+    margin-bottom: 0.5em;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+}
+p{
+  margin: 0 0 5px;
+}
+.modal-container .ant-modal-content {
+  padding: 0px;
+  border-radius: 4px
+}
+.modal-container .ant-modal-header{
+  padding: 18px 24px;
+  border-bottom: 1px solid #e8e8e8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.modal-container .ant-modal-body{
+padding: 24px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.modal-container .ant-modal-footer{ 
+  padding: 10px 16px;
+    text-align: right;
+    background: tranparent;
+    border-top: 1px solid #e8e8e8;
+    border-radius: 0 0 4px 4px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer .ant-card-actions{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #fafafa;
+  border-top: 1px solid #e8e8e8;
+  zoom: 1;
 }
