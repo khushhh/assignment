@@ -22,8 +22,7 @@ function CardScreen(props) {
     } else {
       return <HeartOutlined style={{ color: "#ff0000", fontSize: 20 }} />
     }
-
-  }
+}
 
   // on open modal 
   const onModal = ()=>{
